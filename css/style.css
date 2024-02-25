@@ -1,0 +1,201 @@
+body{
+    font-size: 0.7rem;
+    background-color: #17192b;
+    font-family: Roboto;
+}
+
+h4.text-center {
+    color: #cb2376;
+    margin: 30px 0px;
+}
+
+a {
+    color: white;
+}
+
+a.navbar-brand {
+    color: #cb2376;
+    font-size: 25px;
+}
+
+span {
+    color: white;
+}
+
+nav {
+    background-color: #10121f;
+}
+
+button.btn {
+    background-color: #cb2376;
+    color: white;
+}
+
+a.btn.btn-primary.m-2 {
+    background: #cb2376;
+    border: none;
+}
+
+a.btn.btn-primary.m-2:hover {
+    background-color: #9d175a;
+    color: white;
+}
+
+button.btn:hover {
+    background-color: #9d175a;
+    color: white;
+}
+
+.card-body {
+    background-color: #10121f;
+    border-radius: 0px 0px 10px 10px;
+    border: none!important;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    background-color: #10121f;
+    margin: 30px 0px;
+}
+
+.card-body h6 {
+    color: white;
+}
+
+.card-body p {
+    color: white;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: white;
+    font-size: 15px;
+}
+
+#insert-area{
+    width: 100%;
+    margin-top: 180px;
+    flex-direction: column;
+}
+
+table.table.container.text-center {
+    margin-top: 50px;
+    background-color: #10121f;
+}
+
+.table>:not(caption)>*>* {
+    background-color: #10121f;
+    border-bottom: #9d175a solid 1px;
+    color: white;
+}
+
+h3#h3Prodotto {
+    color: #cb2376;
+    text-align: center;
+    margin-top: 30px;
+}
+
+a.navbar-brand:hover {
+    color: #cb2376;
+}
+
+a.navbar-brand:focus {
+    color: #cb2376;
+}
+
+h3 {
+    color: #cb2376;
+}
+
+ul#ulProdotto {
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+a.btn.btn-danger {
+    background-color: #cb2376;
+}
+
+a#aProdotto {
+    text-align: center;
+}
+
+th {
+    font-size: 15px;
+}
+
+a.btn.btn-danger:hover {
+    background-color: #9d175a;
+}
+
+.fa-solid:hover {
+    color: #cb2376;
+}
+
+
+#insert-area input{
+    width: 100%;
+    margin: 3px 0;
+}
+
+#insert-area{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    height: 400px;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+}
+
+img{
+    object-fit: cover;
+    border-radius: 5px;
+    height: 50%;
+}
+
+img#prodotto {
+    margin: auto;
+}
+
+div#containerProdotto {
+    margin-top: 50px;
+}
+
+button.btn-success{
+    margin-top: 10px;
+}
+
+.btn-danger,.btn-primary{
+    font-size: 0.7rem;
+    margin: 5px 0;
+}
+
+#h3Database {
+    text-align: center;
+}
+
+h3#h3Set {
+    text-align: center;
+}
+
+#buttonDatabase {
+    display: block;
+    margin: auto;
+}
+
+button.btn.btn-sm.mt-3 {
+    display: block;
+    margin: auto;
+}
+

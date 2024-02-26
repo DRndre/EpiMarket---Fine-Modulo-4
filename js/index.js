@@ -50,15 +50,15 @@ function getProduct({name, brand, price, imageUrl, _id}){
     let productPrice = document.createElement('p');
     productPrice.innerText = price+'€';
 
-    let infoButton = document.createElement('a');
-    infoButton.classList.add('btn', 'btn-primary', 'm-2');
-    infoButton.innerText = 'Details';
+    let detailsButton = document.createElement('a');
+    detailsButton.classList.add('btn', 'btn-primary', 'm-2');
+    detailsButton.innerText = 'Details';
 
-    infoButton.addEventListener('click', () =>{
-        infoButton.href = "infoProduct.html?id=" + _id;
+    detailsButton.addEventListener('click', () =>{
+        detailsButton.href = "detailsProduct.html?id=" + _id;
     })
 
-    bodyCard.append(productTitle, productBrand, productPrice, infoButton);
+    bodyCard.append(productTitle, productBrand, productPrice, detailsButton);
     productBox.append(img, bodyCard);
     colProduct.appendChild(productBox);
     containerProducts.appendChild(colProduct);

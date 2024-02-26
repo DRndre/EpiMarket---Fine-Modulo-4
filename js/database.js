@@ -90,7 +90,7 @@ function createProduct({name, description, brand, price, imageUrl, _id}){
     editButton.classList.add('btn', 'btn-primary', 'ms-2');
     
     editButton.addEventListener( 'click' , ()=>{
-        editButton.href = "setProduct.html?id=" + _id;
+        editButton.href = "editProduct.html?id=" + _id;
     });
 
     tr.appendChild(editButton);
